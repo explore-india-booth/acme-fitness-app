@@ -23,14 +23,14 @@ metadata:
 spec:
   params:
   - name: gitops_ssh_secret
-    value: tap-play-gitops-secret
+    value: git-secret
   - name: gitops_sub_path
-    value: config/workloads/acme-catalog
+    value: config/tap-workload/acme-catalog
   source:
     git:
       ref:
         branch: main
-      url: https://github.com/gm2552/tap-play-gitops.git
+      url: https://github.com/explore-india-booth/exploresol-repo-delivery.git
 ---
 apiVersion: carto.run/v1alpha1
 kind: Deliverable
@@ -54,14 +54,14 @@ metadata:
 spec:
   params:
   - name: gitops_ssh_secret
-    value: tap-play-gitops-secret
+    value: git-secret
   - name: gitops_sub_path
-    value: config/workloads/acme-identity
+    value: config/tap-workload/acme-identity
   source:
     git:
       ref:
         branch: main
-      url: https://github.com/gm2552/tap-play-gitops.git
+      url: https://github.com/explore-india-booth/exploresol-repo-delivery.git
 ---
 apiVersion: carto.run/v1alpha1
 kind: Deliverable
@@ -85,11 +85,11 @@ metadata:
 spec:
   params:
   - name: gitops_ssh_secret
-    value: tap-play-gitops-secret
+    value: git-secret
   - name: gitops_sub_path
-    value: config/workloads/acme-payment
+    value: config/tap-workload/acme-payment
   source:
     git:
       ref:
         branch: main
-      url: https://github.com/gm2552/tap-play-gitops.git
+      url: https://github.com/explore-india-booth/exploresol-repo-delivery.git

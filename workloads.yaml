@@ -1,5 +1,4 @@
 #@ load("@ytt:data", "data")
-
 ---
 apiVersion: carto.run/v1alpha1
 kind: Workload
@@ -39,7 +38,7 @@ spec:
   source:
     subPath: apps/acme-cart
     git:
-      url: https://github.com/explore-india-booth/acme-fitness-store
+      url: https://github.com/explore-india-booth/acme-fitness-store.git
       ref:
         branch: main
 ---
@@ -71,7 +70,7 @@ spec:
   source:
     subPath: apps/acme-order
     git:
-      url: https://github.com/explore-india-booth/acme-fitness-store
+      url: https://github.com/explore-india-booth/acme-fitness-store.git
       ref:
         branch: main
 ---
@@ -110,7 +109,7 @@ spec:
   source:
     subPath: apps/acme-shopping
     git:
-      url: https://github.com/explore-india-booth/acme-fitness-store
+      url: https://github.com/explore-india-booth/acme-fitness-store.git
       ref:
         branch: main
 ---
@@ -139,7 +138,7 @@ spec:
   source:
     subPath: apps/acme-identity
     git:
-      url: https://github.com/explore-india-booth/acme-fitness-store
+      url: https://github.com/explore-india-booth/acme-fitness-store.git
       ref:
         branch: main
 ---
@@ -172,7 +171,7 @@ spec:
   source:
     subPath: apps/acme-catalog
     git:
-      url: https://github.com/explore-india-booth/acme-fitness-store
+      url: https://github.com/explore-india-booth/acme-fitness-store.git
       ref:
         branch: main
 ---
@@ -196,8 +195,8 @@ spec:
       containerPort: 8080
       name: http
   source:
-    subPath: apps/acme-catalog
+    subPath: apps/acme-payment
     git:
-      url: https://github.com/explore-india-booth/acme-fitness-store
+      url: https://github.com/explore-india-booth/acme-fitness-store.git
       ref:
         branch: main

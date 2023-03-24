@@ -1,6 +1,4 @@
 #@ load("@ytt:data", "data")
-
-
 ---
 apiVersion: "tanzu.vmware.com/v1"
 kind: SpringCloudGateway

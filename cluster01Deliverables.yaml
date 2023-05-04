@@ -25,7 +25,7 @@ spec:
   - name: gitops_ssh_secret
     value: git-secret
   - name: gitops_sub_path
-    value: config/tap-workload/acme-shopping
+    value: config/tap-workload/acme-shopping-custom
   source:
     git:
       ref:

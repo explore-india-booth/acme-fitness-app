@@ -34,7 +34,7 @@ metadata:
     sso.apps.tanzu.vmware.com/allow-unsafe-identity-provider: ""
     sso.apps.tanzu.vmware.com/allow-unsafe-issuer-uri: ""
 spec:
-#  tls:
+  tls:
 #    disabled: true
   tokenSignature:
     signAndVerifyKeyRef:

@@ -49,7 +49,7 @@ spec:
       - name: registry-credentials
       containers:
         - name: cart-redis     
-          image: bitnami/redis
+          image: exploreindiatapsolreg.azurecr.io/containers/debian-11/redis:7.2.0
           imagePullPolicy: Always
           resources:
             requests:
